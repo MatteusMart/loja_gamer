@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Loja - gamer</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+  />
 </head>
 <body>
     <div id="container">
@@ -23,16 +29,99 @@
                 <a class="texto-menu" href="">Cadastrar</a>
             </div>
             <div class="item">
-                <a class="texto-menu" href="">Seu Carrinho</a>
+                <a class="texto-menu" href="">Seu Carrinho 
+                <i class="fa-solid fa-cart-shopping fa-2x"></i></a>
             </div>
         </header>
         <div id="container-interno">
-        
+            <nav class="navbar">
+                <div class="item-navbar">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </div>
+                <div class="item-navbar">
+                    <a class="texto-navbar" href="">Categorias</a>
+                </div>
+                <div class="item-navbar">
+                    <a class="texto-navbar" href="">Jogos</a>
+                </div>
+                <div class="item-navbar">
+                    <a class="texto-navbar" href="">Consoles</a>
+                </div>
+                <div class="item-navbar">
+                    <a class="texto-navbar" href="">Acessórios</a>
+                </div>
+                <div class="item-navbar">
+                    <a class="texto-navbar" href="">Periféricos</a>
+                </div>
+                <div class="item-navbar">
+                    <a class="texto-navbar" href="">Peças de Reposição</a>
+                </div>
+            </nav>
+            <main>
+                <h1 class="texto-principal">Os melhores produtos com os melhores preços</h1>
+                <div class="banner">
+                    <img src="img/banner.png" alt="banner" class="banner-img">
+                </div>
+                <div class="categorias">
+                    <a href="">
+                        <img class="categoria-img" src="img/categoria1.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="categoria-img" src="img/categoria2.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="categoria-img" src="img/categoria3.png" alt="">
+                    </a>
+                </div>
+                <div class="promocoes">
+                    <p class="promocoes-titulo">Promoções da Semana</p>
 
+                    <div id="myCarousel" class="carousel">
+                        <div class="carousel__slide">
+                            <figure>
+                                <img src="img/promocao1.png" alt="">
+                                <figcaption>
+                                    AEROCOOL : R$ 499,90 10x de R$ 49,99 sem juros
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel__slide">
+                            <figure>
+                                <img src="img/promocao2.png" alt="">
+                                <figcaption>
+
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel__slide">
+                            <figure>
+                                <img src="img/promocao3.png" alt="">
+                                <figcaption></figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel__slide">
+                            <figure>
+                                <img src="img/promocao4.png" alt="">
+                                <figcaption>
+
+                                </figcaption>
+                        </div>
+                    </div>
+                </div>
+
+
+            </main>
         </div>
 
 
     </div>
+
+    <!-- importação do fancybox -->
+    <script
+     src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js">
+    </script>
+    
+
     <script src="js/script.js"></script>
 </body>
 </html>
