@@ -115,3 +115,54 @@ body{
     text-align: center;
     color: #fff;
 }
+
+.promocoes-figure{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.promocoes-img{
+    width: 152px;
+    height: 154px;
+}
+
+/* altera o tamanho padrao de cada item do carousel */
+.carousel__slide {
+    max-width: var(--carousel-slide-width, 40%);
+}
+
+.banner2{
+    margin-top: 40px;
+    display: grid;
+}
+
+.banner2-img{
+    width: 100%;
+}
+
+.rodape{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+}
+
+.rodape-item{
+    /* sao as colunas do rodape */
+    padding: 20px;
+}
+
+.rodape-titulo{
+    /* titulo de cada coluna rodape */
+    color: #fff;
+}
+
+.rodape-texto{
+    /* item de cada coluna no rodape */
+    /* aqui formata os links  */
+    color: #fff;
+    font-size: 12px;
+    opacity: 50%;
+    text-decoration: none;
+}
