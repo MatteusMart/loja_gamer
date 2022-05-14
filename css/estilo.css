@@ -166,3 +166,91 @@ body{
     opacity: 50%;
     text-decoration: none;
 }
+
+.rodape-texto p{
+    padding: 5px;
+}
+
+.carousel__dots{
+    color: white;
+    /* margin-top: -50px !important; */
+}
+
+/* consultar documentação do site */
+/* deixa a espessura da seta mais grossa */
+.carousel {
+    color: #170724;
+  
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+            0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+    --carousel-button-svg-stroke-width: 2.5;
+  }
+
+/* Final da versão Desktop */
+
+
+/* Inicio da versão Mobile */
+/* media query para versão tablet e celular */
+@media only screen and (max-width: 768px) {
+    #container{
+        width: 100%;
+    }
+
+    .header{
+        grid-template-columns: 1fr;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #pesquisar{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .item{
+        padding: 5px;
+    }
+
+    .navbar{
+        grid-template-columns: 1fr;
+    }
+
+    .item-navbar{
+        padding: 10px;
+    }
+
+    .categorias{
+        grid-template-columns: 1fr;
+    }
+
+    .rodape{
+        grid-template-columns: 1fr;
+    }
+
+    .carousel__slide{
+        max-width: var(--carousel-slide-width, 80%);
+        width: 70%;
+    }
+
+    .promocoes-img{
+        width: 60%;
+    }
+
+    .promocoes-figure{
+        margin: 0;
+        height: 300px;
+    }
+
+    .carrinho-texto{
+        display: none;
+    }
+
+    .oculta-navbar{
+        display: none;
+    }
+}
